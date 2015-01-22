@@ -1,0 +1,140 @@
+/**
+ * ThoughtWorks theme for reveal.js.
+ *
+ * Juntao QIU, http://icodeit.org
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #1BB470;
+$highlightColor: #EF5BA1;
+$mainColor: #FFFFFF;
+$headingColor: #FFFFFF;
+
+$mainFontSize: 38px;
+$mainFont: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
+$headingFont: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 900;
+$linkColor: #cccccc;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #333333;
+	}
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.reveal {
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: -0.08em;
+		text-rendering: optimizelegibility;
+	}
+
+	.slide-background {
+		transition: none;
+	}
+
+	.subtitle {
+		font-size: 1em;
+		font-weight: 300;
+		font-style: italic;
+		letter-spacing: normal;
+		text-transform: normal;
+	}
+
+	.title {
+		padding: .4em 0;
+		border-bottom: 2px solid $headingColor;
+	}
+
+	p {
+		font-weight: 100;
+	}
+
+	.emphasize {
+		font-style: italic;
+	}
+	
+	.pink {
+		color: #EF5BA1;
+	}
+
+	.bg-pink {
+		background-color: #EF5BA1;
+	}
+
+	.blue {
+		color: #30C7D5;
+	}
+
+	.bg-blue {
+		background-color: #30C7D5;
+	}
+
+	.lightgray {
+		color: #eeeeee;
+	}
+
+	.bg-lightgray {
+		background-color: #eeeeee;
+	}
+
+	.darkgray {
+		color: #333333;
+	}
+
+	.bg-darkgray {
+		background-color: #333333;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.bg-white {
+		background-color: white;
+	}
+
+	.black {
+		color: black;
+	}
+
+	.bg-black {
+		background-color: black;
+	}
+
+	.green {
+		color: $backgroundColor;
+	}
+
+	.bg-green {
+		background-color: $backgroundColor;
+	}
+
+	.left {
+		text-align: left;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+}
