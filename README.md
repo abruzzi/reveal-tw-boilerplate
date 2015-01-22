@@ -57,4 +57,5 @@ You can use the combination like this:
 </section>
 ```
 
-![ThoughtWorks in a nutshell]()
+![ThoughtWorks in a nutshell](https://github.com/abruzzi/reveal-tw-boilerplate/blob/master/thoughtworks-resized.png)
+
