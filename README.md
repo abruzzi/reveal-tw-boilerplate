@@ -11,6 +11,12 @@ This is a customized version of reveal.js for create a `ThoughtWorks` style pres
 
 `git clone` and then open the index.html in your browser, that's it. Actually you can go one step further and try to edit your slide lively(see the section below).
 
+```sh
+$ git clone git@github.com:abruzzi/reveal-tw-boilerplate.git 
+$ cd presentation
+$ open index.html
+```
+
 #### For those who want to customize the theme itself
 
 To use it, simply clone this repo and :
@@ -35,3 +41,20 @@ Once it's installed, open the page in browser, and click the `live reload` butto
 
 And after this, you can edit the `index.html` for add new slides, and `css/theme/source/thoughtworks.scss` for new styles.
 
+There are a lot of `predefined` style, here is the list:
+
+1.  `bg-pink` for pink background color, `pink` for pink text color
+2.  Some other colors like `lightgray`, `darkgray`, `blue` and `green` are available as well following the convention above
+3.  `left` for `text-align: left` and `right` for `text-align: right`
+4.  `title` for the main title, and `subtitle` for subtitle
+
+You can use the combination like this:
+
+```html
+<section class="bg-lightgray darkgray">
+	<h2 class="pink">ThoughtWorks in a nutshell</h2>
+	<p class="emphasize">We are passionate technologists. We provide software delivery, pioneering tools and consulting for organizations with ambitious missions.</p>
+</section>
+```
+
+![ThoughtWorks in a nutshell]()
