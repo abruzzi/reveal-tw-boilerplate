@@ -1,5 +1,7 @@
 ### Get started
 
+![ThoughtWorks in a nutshell](https://github.com/abruzzi/reveal-tw-boilerplate/blob/master/green-resized.png)
+
 This is a customized version of reveal.js for create a `ThoughtWorks` style presentation much more easier, it contains:
 
 1.	Guardfile to watch changes
