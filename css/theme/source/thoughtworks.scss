@@ -137,4 +137,9 @@ section.has-light-background {
 		text-align: right;
 	}
 
+	code {
+		.title {
+			border-botton: 0px; //remove title border when display code
+		}
+	}
 }
