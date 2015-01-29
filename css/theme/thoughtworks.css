@@ -485,3 +485,7 @@ body {
 .reveal .right {
   text-align: right;
 }
+/* line 141, source/thoughtworks.scss */
+.reveal code .title {
+  border-bottom: 0px;
+}
